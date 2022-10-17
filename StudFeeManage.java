@@ -26,6 +26,7 @@ public class StudFeeManage {
 
 		
 		System.out.println("-------------------Welcome's you----------------------");
+		System.out.println("-------------------ANNAMALAI UNIVERSITY------------------");
 		System.out.println("\n"+ "---------------Student's name with balance-------------");
 		
 		System.out.println("Name \t Fees \t Year");
@@ -40,9 +41,9 @@ public class StudFeeManage {
 		
 		
 		Map<String,Integer>fees=new LinkedHashMap<>();
-		fees.put("1st Term Fees", 20000);
-		fees.put("2nd Term Fees", 20000);
-		fees.put("3rd Term Fees", 20000);
+		fees.put("1st ", 20000);
+		fees.put("2nd ", 20000);
+		fees.put("3rd ", 20000);
 		System.out.println("\n"+"------------------Term Fee Details------------------");
 		System.out.println("Term \t\t Fees ");
 		System.out.println("---------------------------------------------------------");
